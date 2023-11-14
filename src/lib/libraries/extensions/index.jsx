@@ -46,6 +46,8 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import robotCarIconURL from './gdxfor/gdxfor.png';
+
 export default [
     {
         name: (
@@ -317,5 +319,24 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'Wifi camera smart robot car',
+        extensionId: 'myScratchExtension',
+        collaborator: 'me',
+        iconURL:  robotCarIconURL,
+        insetIconURL:  robotCarIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Wifi camera smart robot car"
+                description="Wifi camera smart robot car"
+                id="gui.extension.yourScratchExtension.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        internetConnectionRequired: true,
+        
     }
 ];
