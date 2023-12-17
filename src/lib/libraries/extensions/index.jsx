@@ -324,8 +324,7 @@ export default [
         name: 'Wifi camera smart robot car',
         extensionId: 'myScratchExtension',
         collaborator: 'me',
-        iconURL:  robotCarIconURL,
-        insetIconURL:  robotCarIconURL,
+       
         description: (
             <FormattedMessage
                 defaultMessage="Wifi camera smart robot car"
